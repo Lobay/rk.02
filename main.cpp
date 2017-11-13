@@ -26,6 +26,7 @@ int main()
 	for (i = 0; i < k - z; i++) {
 		c[i] = a[i + z];
 	}
+	delete [] a;
 	for (i = 0; i < k - z; i++) {
 		cout << c[i] << " ";
 	}
